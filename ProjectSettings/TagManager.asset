@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - KEY
+  - Controller
+  - WEAPON
+  - YOUTUBER
+  - AIRPLANE
+  - GROUND
+  - Paper
+  - Table
+  - ZONE
+  - PINK
+  - YELLOW
+  - GREEN
+  - BLUE
+  - PURPLE
+  - KEYPAD
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - Rope
+  - SeaRidge
+  - Marker
+  - Stencil1
+  - Stencil2
+  - Stencil3
+  - Stencil4
+  - Stencil5
+  - DistanceGrabbable
+  - VRHand
+  - Door
+  - Ground
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
