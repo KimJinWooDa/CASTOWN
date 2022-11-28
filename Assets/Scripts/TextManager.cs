@@ -15,8 +15,8 @@ public class TextManager : Singleton<TextManager>
 
     public GameObject KEYBOARD;
     
-    private string texts;
-    [SerializeField] private string userNameText;
+    private string texts; 
+    public string userNameText;
     [Space(10)]
     [Header("세팅끝")]
     public GameObject UI; //삭제하지마
@@ -49,6 +49,7 @@ public class TextManager : Singleton<TextManager>
     {
         if (isChangeProfile)
         {
+            
             ChangeUserProfile.Instance.isChange = false;
             var one = ChangeUserProfile.Instance.userName[0];
             var two = ChangeUserProfile.Instance.userName[1];

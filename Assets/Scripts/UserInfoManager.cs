@@ -22,4 +22,9 @@ public class UserInfoManager : Singleton<UserInfoManager>
     {
         userName = name;
     }
+
+    public void InitUserName()
+    {
+        userName = null; 
+    }
 }

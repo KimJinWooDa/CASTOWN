@@ -42,6 +42,7 @@ public class UserName : MonoBehaviour
         }
         else
         {
+            UserInfoManager.Instance.InitUserName();
             text.text = "Enter Nickname";
         }
         

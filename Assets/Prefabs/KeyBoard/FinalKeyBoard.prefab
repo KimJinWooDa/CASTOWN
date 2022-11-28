@@ -1311,7 +1311,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -3303256705093927424, guid: 1b702c27fce652b458d93a39c1a9382d, type: 3}
+  - {fileID: 2100000, guid: d5badbe870e30a642b7ad73dd7b92244, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1519,8 +1519,8 @@ MonoBehaviour:
         m_MethodName: set_material
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: -3303256705093927424, guid: 1b702c27fce652b458d93a39c1a9382d,
-            type: 3}
+          m_ObjectArgument: {fileID: 2100000, guid: d5badbe870e30a642b7ad73dd7b92244,
+            type: 2}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Material, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
@@ -2309,7 +2309,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -7496711939911096844, guid: 1b702c27fce652b458d93a39c1a9382d, type: 3}
+  - {fileID: 2100000, guid: c62c3b0d6d3588748ba8a6afc967c2cf, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -3313,7 +3313,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -8771166627424403242, guid: 1b702c27fce652b458d93a39c1a9382d, type: 3}
+  - {fileID: 2100000, guid: c62c3b0d6d3588748ba8a6afc967c2cf, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -3720,7 +3720,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -3303256705093927424, guid: 1b702c27fce652b458d93a39c1a9382d, type: 3}
+  - {fileID: 2100000, guid: d5badbe870e30a642b7ad73dd7b92244, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -3868,8 +3868,8 @@ MonoBehaviour:
         m_MethodName: set_material
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: -3303256705093927424, guid: 1b702c27fce652b458d93a39c1a9382d,
-            type: 3}
+          m_ObjectArgument: {fileID: 2100000, guid: d5badbe870e30a642b7ad73dd7b92244,
+            type: 2}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Material, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
@@ -9726,7 +9726,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -8771166627424403242, guid: 1b702c27fce652b458d93a39c1a9382d, type: 3}
+  - {fileID: 2100000, guid: c62c3b0d6d3588748ba8a6afc967c2cf, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -9858,8 +9858,8 @@ MonoBehaviour:
         m_MethodName: set_material
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: -3303256705093927424, guid: 1b702c27fce652b458d93a39c1a9382d,
-            type: 3}
+          m_ObjectArgument: {fileID: 2100000, guid: d5badbe870e30a642b7ad73dd7b92244,
+            type: 2}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Material, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
@@ -9886,8 +9886,8 @@ MonoBehaviour:
         m_MethodName: set_material
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: -8771166627424403242, guid: 1b702c27fce652b458d93a39c1a9382d,
-            type: 3}
+          m_ObjectArgument: {fileID: 2100000, guid: c62c3b0d6d3588748ba8a6afc967c2cf,
+            type: 2}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Material, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
@@ -15010,7 +15010,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -8771166627424403242, guid: 1b702c27fce652b458d93a39c1a9382d, type: 3}
+  - {fileID: 2100000, guid: c62c3b0d6d3588748ba8a6afc967c2cf, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -36917,6 +36917,46 @@ PrefabInstance:
       propertyPath: m_IsTrigger
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2832750473288882224, guid: 3f002782400d34749bce4fd9d88cd6cb,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: c62c3b0d6d3588748ba8a6afc967c2cf, type: 2}
+    - target: {fileID: 2832750473695236324, guid: 3f002782400d34749bce4fd9d88cd6cb,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: c62c3b0d6d3588748ba8a6afc967c2cf, type: 2}
+    - target: {fileID: 2832750473879122341, guid: 3f002782400d34749bce4fd9d88cd6cb,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: c62c3b0d6d3588748ba8a6afc967c2cf, type: 2}
+    - target: {fileID: 2832750474023775043, guid: 3f002782400d34749bce4fd9d88cd6cb,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: c62c3b0d6d3588748ba8a6afc967c2cf, type: 2}
+    - target: {fileID: 2832750474504584791, guid: 3f002782400d34749bce4fd9d88cd6cb,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: c62c3b0d6d3588748ba8a6afc967c2cf, type: 2}
+    - target: {fileID: 2832750474510366811, guid: 3f002782400d34749bce4fd9d88cd6cb,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: c62c3b0d6d3588748ba8a6afc967c2cf, type: 2}
+    - target: {fileID: 2832750474558291086, guid: 3f002782400d34749bce4fd9d88cd6cb,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: c62c3b0d6d3588748ba8a6afc967c2cf, type: 2}
+    - target: {fileID: 2832750475110613514, guid: 3f002782400d34749bce4fd9d88cd6cb,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: c62c3b0d6d3588748ba8a6afc967c2cf, type: 2}
     - target: {fileID: 4508210861412780534, guid: 3f002782400d34749bce4fd9d88cd6cb,
         type: 3}
       propertyPath: m_LocalScale.z
@@ -37357,6 +37397,11 @@ PrefabInstance:
       propertyPath: _whenSelect.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
+    - target: {fileID: 6031564012173480111, guid: 3f002782400d34749bce4fd9d88cd6cb,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: c62c3b0d6d3588748ba8a6afc967c2cf, type: 2}
     - target: {fileID: 6485724545565136595, guid: 3f002782400d34749bce4fd9d88cd6cb,
         type: 3}
       propertyPath: m_Layer
@@ -37437,6 +37482,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6485724547682081205, guid: 3f002782400d34749bce4fd9d88cd6cb,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: c62c3b0d6d3588748ba8a6afc967c2cf, type: 2}
     - target: {fileID: 7929420750240256723, guid: 3f002782400d34749bce4fd9d88cd6cb,
         type: 3}
       propertyPath: m_Enabled

@@ -69,7 +69,8 @@ public class UIManager : Singleton<UIManager>
     {
         ChangeUserProfile.Instance.isChange = false;
         isOnce = false;
-        UserInfoManager.Instance.userName = null;
+        UserInfoManager.Instance.InitUserName();
+        TextManager.Instance.userNameText = null;
         if (!wait)
         {
             if (!isOn)
